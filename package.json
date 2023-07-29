@@ -1,0 +1,19 @@
+{
+  "name": "test_vr",
+  "version": "1.0.0",
+  "description": "Teste de automacao front-end para vaga de QA na Vr Beneficios",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run"
+  },
+  "author": "Angelica Botazoli",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.2",
+    "cypress-real-events": "^1.9.1"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.5.1"
+  }
+}
